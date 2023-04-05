@@ -4,8 +4,13 @@ from app import app
 from models import db, User, Game, Review
 
 
+game1 = Game()
 
-if __name__ == '__main__':
-    
-    with app.app_context():
-        import ipdb; ipdb.set_trace()
+
+
+import ipdb; ipdb.set_trace()
+
+
+# if __name__ == '__main__':
+    # 
+    # with app.app_context():
